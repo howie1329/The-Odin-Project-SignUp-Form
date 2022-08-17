@@ -3,8 +3,8 @@
     src: url(./CormorantGaramond-Regular.ttf);
 }
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0rem;
+    padding: 0rem;
     color: #4C2818;
     font-family: 'cormorant-garamond';
 }
@@ -33,31 +33,31 @@
     height: 25vh;
 }
 .container .rightside .text1{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
     margin-top: 0vh;
     display: flex;
     justify-content: center;
-    padding-left: 0px;
+    padding-left: 0rem;
     font-family: 'cormorant-garamond';
 }
 .container .rightside .text2{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
     display: flex;
     justify-content: center;
     margin-top: 0px;
-    padding-left: 30px;
+    padding-left: 1.875rem;
     font-family: 'cormorant-garamond';
 }
 
 .container .rightside .text3{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
     display: flex;
     justify-content: center;
-    margin-top: 0px;
-    padding-left: 30px;
+    margin-top: 0rem;
+    padding-left: 1.25rem;
     font-family: 'cormorant-garamond';
 }
 
@@ -66,9 +66,9 @@
     align-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 15px;
+    gap: 0.938rem;
     margin-left: 10vw;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
     padding-top: 3vh;
     padding-left: 10vh;
@@ -85,14 +85,14 @@
 }
 
 button{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
-    padding: 5px;
+    padding: 0.313rem;
     font-family: 'cormorant-garamond';
 }
 .container .rightside .form1 .inputbutton{
     display: flex;
     margin-left: 10vw;
     padding-top: 4vh;
-    gap: 20px;
+    gap: 1.25rem;
 }
