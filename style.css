@@ -1,0 +1,98 @@
+@font-face {
+    font-family: cormorant-garamond;
+    src: url(./CormorantGaramond-Regular.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #4C2818;
+    font-family: 'cormorant-garamond';
+}
+
+.container{
+    display: flex;
+    align-content: center;
+    background-color: blanchedalmond;
+    width: 100vw;
+    height: 100vh;
+}
+.container .leftside{
+    display: flex;
+    width: 40vw;
+}
+.container .rightside{
+    width: 60vw;
+    background-color: #D5AA72;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 60vw;
+    height: 25vh;
+}
+.container .rightside .text1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0vh;
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    font-family: 'cormorant-garamond';
+}
+.container .rightside .text2{
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    padding-left: 30px;
+    font-family: 'cormorant-garamond';
+}
+
+.container .rightside .text3{
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    padding-left: 30px;
+    font-family: 'cormorant-garamond';
+}
+
+.container .rightside .form1{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 15px;
+    margin-left: 10vw;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 3vh;
+    padding-left: 10vh;
+    display: flex;
+    width: 30vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.container .rightside .form1 .input{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+button{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px;
+    font-family: 'cormorant-garamond';
+}
+.container .rightside .form1 .inputbutton{
+    display: flex;
+    margin-left: 10vw;
+    padding-top: 4vh;
+    gap: 20px;
+}
