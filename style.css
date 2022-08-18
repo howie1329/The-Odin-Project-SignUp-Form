@@ -61,6 +61,7 @@
     font-family: 'cormorant-garamond';
 }
 
+
 .container .rightside .form1{
     display: flex;
     align-content: center;
@@ -82,6 +83,14 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+.container .rightside .form1 .input :hover{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: black;
+    border-style: solid;
 }
 
 button{
