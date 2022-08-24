@@ -85,13 +85,6 @@
     text-align: center;
 }
 
-.container .rightside .form1 .input :hover{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    border: black;
-    border-style: solid;
-}
 
 button{
     font-size: 1.25rem;
@@ -104,4 +97,63 @@ button{
     margin-left: 7vw;
     padding-top: 4vh;
     gap: 1.25rem;
+}
+
+input:invalid {
+    border-color: red;
+  }
+  
+input:valid {
+    border-color: green;
+  }
+
+@media (max-width:600px) {
+    .container .leftside{
+        display: none;
+    }
+
+    .container .rightside{
+        width: 100vw;
+        height: 100vh;
+        flex-wrap: nowrap;
+        display: flex;
+        justify-content: center;
+        border: green solid;
+    }
+
+    .container .rightside .logo{
+        width: 60vw;
+        height: 30vh;
+        margin-left: 20vw;
+    }
+
+    .container .rightside .text1{
+        font-size: 1.25rem;
+        font-weight: 700;
+        margin-top: 0vh;
+        margin-left: 10vw;
+        display: flex;
+        justify-content: center;
+        padding-left: 0rem;
+        font-family: 'cormorant-garamond';
+    }
+    .container .rightside .text2{
+        font-size: 1.25rem;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        margin-top: 2vh;
+        padding-left: 1.875rem;
+        font-family: 'cormorant-garamond';
+    }
+    
+    .container .rightside .text3{
+        font-size: 1.25rem;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        margin-top: 0rem;
+        padding-left: 1.25rem;
+        font-family: 'cormorant-garamond';
+    }
 }

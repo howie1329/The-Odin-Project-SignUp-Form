@@ -23,27 +23,27 @@
             <form class = form1 action="" method="post">
                 <div class = input>
                     <label for="first_name">First Name</label>
-                    <input type="text" id="first_name">
+                    <input type="text" id="first_name" pattern="[a-zA-Z0-9]+" required>
                 </div>
                 <div class = input>
                     <label for="last_name">Last Name</label>
-                    <input type="text" id="last_name">
+                    <input type="text" id="last_name"pattern = '[a-zA-Z0-9]+' required>
                 </div>
                 <div class = input>
                     <label for="email">Email</label>
-                    <input type="email" id="email">
+                    <input type="email" id="email" required>
                 </div>
                 <div class = input>
                     <label for="phoneNumber">Phone Number</label>
-                    <input type="number" id="phoneNumber">
+                    <input type="number" id="phoneNumber" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required>
                 </div>
                 <div class = input>
                     <label for="user_password">Password</label>
-                    <input type="password" id="user_password">
+                    <input type="password" id="user_password" required>
                 </div>
                 <div class = input>
                     <label for="user_password">Confirm Password</label>
-                    <input type="password" id="user_password">
+                    <input type="password" id="user_password" required>
                 </div>
                 <div class = inputbutton>
                     <button type="submit">Create Account</button>
