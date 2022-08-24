@@ -118,7 +118,6 @@ input:valid {
         flex-wrap: nowrap;
         display: flex;
         justify-content: center;
-        border: green solid;
     }
 
     .container .rightside .logo{
